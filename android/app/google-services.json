@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "87293904268",
+    "project_id": "appmovil-ea465",
+    "storage_bucket": "appmovil-ea465.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:87293904268:android:d2b6d6a5ad7761bd9e02a9",
+        "android_client_info": {
+          "package_name": "com.appmovil"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "87293904268-tjbfp64bnb3jci8p5vtosqgjknv2aufs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyBNEj-7I8cvlKjxCW4ka_7hg2FK7CztQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "87293904268-tjbfp64bnb3jci8p5vtosqgjknv2aufs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
