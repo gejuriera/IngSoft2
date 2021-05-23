@@ -24,7 +24,7 @@ import {
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 import Iconx from 'react-native-vector-icons/Ionicons';
 
-
+import Post from '../components/post/index'
 
 
 export function DrawerContent(props) {
@@ -88,7 +88,7 @@ export function DrawerContent(props) {
                 />
               )}
               label="Reservas"
-              onPress={() => props.navigation.navigate('Reservas')}
+              onPress={() => props.navigation.navigate('GuestScreen')}
 
             />
 
@@ -101,7 +101,7 @@ export function DrawerContent(props) {
                 />
               )}
               label="Metodos De Pago"
-              onPress={() => props.navigation.navigate('MetodosDePago')}
+              onPress={() => props.navigation.navigate('SearchResult')}
 
             />
 

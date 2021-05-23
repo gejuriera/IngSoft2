@@ -8,7 +8,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "@react-native-community/masked-view": "^0.1.10",
+    "@react-native-community/masked-view": "^0.1.11",
     "@react-native-firebase/app": "^11.2.0",
     "@react-native-firebase/auth": "^11.2.0",
     "@react-navigation/drawer": "^5.12.5",
@@ -22,15 +22,18 @@
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-native": "~0.63.4",
-    "react-native-gesture-handler": "^1.8.0",
+    "react-native-calendars": "^1.1261.0",
+    "react-native-datepicker": "^1.7.2",
+    "react-native-gesture-handler": "^1.10.3",
     "react-native-paper": "^4.7.2",
     "react-native-reanimated": "^1.13.3",
     "react-native-safe-area-context": "^3.2.0",
-    "react-native-screens": "^2.15.2",
+    "react-native-screens": "^2.18.1",
     "react-native-unimodules": "~0.12.0",
     "react-native-vector-icons": "^8.1.0",
     "react-native-web": "~0.13.12",
-    "reanimated-bottom-sheet": "^1.0.0-alpha.22"
+    "reanimated-bottom-sheet": "^1.0.0-alpha.22",
+    "yarn": "^1.22.10"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",

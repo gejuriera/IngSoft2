@@ -4,7 +4,7 @@ import { View, Text, Button, StyleSheet } from 'react-native';
 const ReservaScreen = () => {
     return (
       <View style={styles.container}>
-        <Text>ReservaScreen</Text>
+        <Text>Reserva S creen</Text>
         <Button
           title="Click Here"
           onPress={() => alert('Button Clicked!')}

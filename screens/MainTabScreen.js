@@ -11,7 +11,8 @@ import ReservaScreen from './ReservaScreen';
 import ProfileScreen from './ProfileScreen';
 import HomeScreen2 from './HomeScreen2';
 import EditProfileScreen from './EditProfileScreen';
-
+import GuestScreen from '../screens/Guest';
+import SearchResult from './SearchResults';
 const HomeStack= createStackNavigator();
 
 
@@ -45,8 +46,8 @@ const MainTabScreen = ()=>(
       }}
     />
     <Tab.Screen
-      name="Reservas"
-      component={ReservaStackScreen}
+      name="GuestScreen"
+      component={GuestScreen}
       options={{
         tabBarLabel: '',
         tabBarIcon: ({ color }) => (
@@ -56,7 +57,7 @@ const MainTabScreen = ()=>(
     />
 
 <Tab.Screen
-     name="MetodosDePago"
+     name="SearchResult"
       component={MetodoPagoStackScreen}
       options={{
         tabBarLabel: '',
@@ -160,8 +161,8 @@ const ReservaStackScreen = ({navigation})=>(
     <HomeStack.Navigator>
 
     <HomeStack.Screen
-        name='Reserva'
-        component={ReservaScreen}
+        name='GuestScreen'
+        component={GuestScreen}
         options={{
             headerStyle: {
                 backgroundColor: '#1a6199'
@@ -188,8 +189,8 @@ const MetodoPagoStackScreen = ({navigation})=>(
     <HomeStack.Navigator>
 
     <HomeStack.Screen
-        name='MetodosDePago'
-        component={MetodoPagoScreen}
+        name='SearchResult'
+        component={SearchResult}
         options={{
             headerStyle: {
                 backgroundColor: '#1a6199'
